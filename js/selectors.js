@@ -4,7 +4,7 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-   return $('.pics #pic-list li:last-child')
+   return $('.pics #pic-list li:first-child img')
 }
 
 function ninjaBabySelector() {
@@ -16,5 +16,5 @@ function divSelector() {
 }
 
 function firstListItem() {
-  return $('.pics #pic-list li img:first-child')
+  return $('.pics #pic-list li:first-child')
 }
